@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ReloadableRFID.Web.Pages.WebForm1" %>
+﻿e<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="ReloadableRFID.Web.Pages.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -85,10 +85,7 @@
                                                 <a href="CreateStudent.aspx">Create Student's Account</a>
                                             </li>
                                             <li>
-                                                <a href="#">Student's Record</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">Student's Account List</a>
+                                                <a href="StudentAccount.aspx">Student's Account List</a>
                                             </li>
                                         </ul>
                                         <!-- /.nav-third-level -->
