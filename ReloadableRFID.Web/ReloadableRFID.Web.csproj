@@ -172,6 +172,7 @@
     <Content Include="js\startmin.js" />
     <Content Include="Pages\AdminLogin.aspx" />
     <Content Include="Pages\AdminRegistration.aspx" />
+    <Content Include="Pages\CreateCashier.aspx" />
     <Content Include="Pages\CreateStudent.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Home.aspx" />
@@ -251,6 +252,13 @@
     </Compile>
     <Compile Include="Pages\AdminRegistration.aspx.designer.cs">
       <DependentUpon>AdminRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CreateCashier.aspx.cs">
+      <DependentUpon>CreateCashier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\CreateCashier.aspx.designer.cs">
+      <DependentUpon>CreateCashier.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\CreateStudent.aspx.cs">
       <DependentUpon>CreateStudent.aspx</DependentUpon>

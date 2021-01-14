@@ -180,17 +180,6 @@
                                                 </div>
 
                                                 <div class="form-group">
-                                                    <label>Age</label>
-                                                     <asp:TextBox ID="Age" class="form-control" 
-                                                     placeholder="Enter Age" runat="server"></asp:TextBox>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label>Place of Birth</label>
-                                                     <asp:TextBox ID="Studentpb" class="form-control" 
-                                                     placeholder="Enter Place of Birth" runat="server"></asp:TextBox>
-                                                </div>
-                                                <div class="form-group">
                                                     <label>Gender</label>
                                                     <div class="radio">
                                                         <label>
@@ -208,27 +197,14 @@
                                         </div>
 
                                          <div class="col-lg-6">
-                                            <form role="form">
+                                            <form role="form">   
                                                 
-                                                <label  class="lead">Complete Address</label>
-                                                
-
                                                 <div class="form-group">
-                                                    <label>Barangay</label>
+                                           
+                                                    <label>Complete Address</label>
                                                      <asp:TextBox ID="TextBox1" class="form-control" 
-                                                     placeholder="Enter Barangay" runat="server"></asp:TextBox>
-                                                </div>
+                                                     placeholder="Enter Address" runat="server"></asp:TextBox>
 
-                                                <div class="form-group">
-                                                    <label>Municipality</label>
-                                                     <asp:TextBox ID="TextBox2" class="form-control" 
-                                                     placeholder="Enter Municipality" runat="server"></asp:TextBox>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label>Province</label>
-                                                     <asp:TextBox ID="TextBox3" class="form-control" 
-                                                     placeholder="Enter Province" runat="server"></asp:TextBox>
                                                 </div>
 
                                                  <div class="form-group">
@@ -245,7 +221,6 @@
                                                         <option>College of Criminology</option>
                                                         <option>College of Business Administration</option>
                                                         <option>Senior High School</option>
-                                                        <option>Junior High School</option>
                                                         <option>Junior High School</option>
                                                         <option>Elementary</option>
                                                         <option>Kinder</option>
@@ -277,23 +252,11 @@
                                                 </div>
 
                                                 <div class="form-group row">
-                                                <div class="col-lg-5">
+                                                    <div class="col-lg-5">
                                                     <label  class="lead">Year Level</label>
                                                     <select class="form-control" >
                                                         <option></option>
-                                                        <option>1st Year</option>
-                                                        <option>2nd Year</option>
-                                                        <option>3rd Year</option>
-                                                        <option>4th Year</option>
-                                                        <option>5th Year</option>
-                                                    </select>
-                                                    </div>
-
-                                                    <div class="col-lg-5">
-                                                   <label  class="lead">Grade Level</label>
-                                                    <select class="form-control" >
-                                                        <option></option>
-                                                        <option>Grade 1</option>
+                                                         <option>Grade 1</option>
                                                         <option>Grade 2</option>
                                                         <option>Grade 3</option>
                                                         <option>Grade 4</option>
@@ -305,9 +268,15 @@
                                                         <option>Grade 10</option>
                                                         <option>Grade 11</option>                                                       
                                                         <option>Grade 12</option>
+                                                        <option>1st Year</option>
+                                                        <option>2nd Year</option>
+                                                        <option>3rd Year</option>
+                                                        <option>4th Year</option>
+                                                        <option>5th Year</option>
                                                     </select>
-                                                </div>
-                                                </div>
+                                                    </div>
+                                              </div>
+
                                                  <div class="form-group">
                                                     <label>File input</label>
                                                     <asp:FileUpload ID="Studentpic" runat="server" />
@@ -319,7 +288,7 @@
                                                    </div>
 
                                                    <div class="col-lg-2">
-                                                   <asp:Button ID="Button2" class="btn btn-warning" style="float:right;" runat="server" Text="Reset" />
+                                                   <asp:Button ID="Button2" type="reset"  class="btn btn-warning" style="float:right;" runat="server" Text="Reset" />
                                                    </div>
                                                    </div>
                                                 </div>

@@ -84,9 +84,6 @@
                                                 <a href="CreateStudent.aspx">Create Student's Account</a>
                                             </li>
                                             <li>
-                                                <a href="#">Student's Record</a>
-                                            </li>
-                                            <li>
                                                 <a href="#">Student's Account List</a>
                                             </li>
                                         </ul>
@@ -173,9 +170,7 @@
                                                     <td>10/29/2020</td>
                                                     <td>P 2,000.00</td>
                                                     <td>
-                                                        <p>
-                                                            <button type="button" class="btn btn-default">View</button>
-                                                        </p>
+                                                        <a class="btn btn-default" href="StudentProfile.aspx" role="button">View</a>
                                                     </td>
                                                 </tr>
                                                 <tr>
@@ -186,9 +181,7 @@
                                                     <td>11/10/2020</td>
                                                     <td>P 500.00</td>
                                                     <td>
-                                                        <p>
-                                                            <button type="button" class="btn btn-default">View</button>
-                                                        </p>
+                                                        <a class="btn btn-default" href="StudentProfile.aspx" role="button">View</a>
                                                     </td>
 
                                                 </tr>
@@ -200,9 +193,7 @@
                                                     <td>11/25/2020</td>
                                                     <td>P 530.30</td>
                                                     <td>
-                                                        <p>
-                                                            <button type="button" class="btn btn-default">View</button>
-                                                        </p>
+                                                        <a class="btn btn-default" href="StudentProfile.aspx" role="button">View</a>
                                                     </td>
                                                 </tr>
                                             </tbody>
