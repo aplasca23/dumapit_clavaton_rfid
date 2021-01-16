@@ -211,6 +211,7 @@
     <Content Include="Pages\CreateStudent.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Home.aspx" />
+    <Content Include="Pages\Logout.aspx" />
     <Content Include="Pages\StudentAccount.aspx" />
     <Content Include="Pages\StudentProfile.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -409,6 +410,13 @@
     <Compile Include="Pages\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\StudentAccount.aspx.cs">
       <DependentUpon>StudentAccount.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -475,6 +483,12 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ReloadableRFID.Library\ReloadableRFID.Library.csproj">
+      <Project>{9c33f79c-987b-459d-94d5-273eae757b40}</Project>
+      <Name>ReloadableRFID.Library</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
